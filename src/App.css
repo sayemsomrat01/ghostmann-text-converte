@@ -1,0 +1,54 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height : 15vh;
+}
+h1{
+  text-align: center;
+}
+.container{
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+textarea{
+  width: 50%;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-container{
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  margin-right: 10px;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+#darkbtn{
+ background: black; 
+}
+.preview-box{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.preview-box p{
+  width: 50%;
+}
